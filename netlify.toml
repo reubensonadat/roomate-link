@@ -1,9 +1,0 @@
-[build]
-  base = "coast-roomate-match-31/"
-  command = "npm run build"
-  publish = "dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
