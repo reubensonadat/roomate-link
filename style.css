@@ -1,7 +1,10 @@
-.items-start {
-    align-items: flex-start;
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
     overflow: auto;
 }
-.items-start::-webkit-scrollbar{
+
+.transition-all::-webkit-scrollbar{
     display: none;
 }
