@@ -1,0 +1,7 @@
+.items-start {
+    align-items: flex-start;
+    overflow: auto;
+}
+.items-start::-webkit-scrollbar{
+    display: none;
+}
