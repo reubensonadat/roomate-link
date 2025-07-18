@@ -1,5 +1,6 @@
 .transition-all {
     overflow: auto;
+    width: 100%;
 }
 
 .transition-all::-webkit-scrollbar{
