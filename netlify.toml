@@ -1,0 +1,10 @@
+[build]
+  base = "coast-roomate-match-31/"  # This tells Netlify to cd into this folder
+  command = "npm run build"         # This runs your Vite build
+  publish = "dist"                  # This is the folder Vite creates relative to 'base'
+
+# This is for handling client-side routing (React Router) to prevent 404s
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
